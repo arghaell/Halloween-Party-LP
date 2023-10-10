@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Rubik:wght@300;600&display=swap");
+
+:root {
+  --main-color: #fe772d;
+  --bg-color: #000015;
+  --grey-color: #333333;
+
+  --fonte-principal: "Jolly Lodger";
+  --fonte-secundaria: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000015;
+}
+
+.cabecalho {
+  display: flex;
+  padding-top: 48px;
+  flex-direction: column;
+  align-items: center;
+  color: #f5f5f5;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--fonte-principal);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cabecalho__menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho__menu__links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8em;
+}
+
+.cabecalho__menu__link {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 1em;
+  text-decoration: none;
+  color: #f5f5f5;
+  margin: 1em;
+}
+
+.cabecalho__menu__link:hover {
+  color: orange;
+}
+
+.cabecalho__btn {
+  font-family: var(--fonte-secundaria);
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #fe772d;
+  padding: 16px 24px;
+  color: #292d32;
+  border: solid 1px;
+  border-radius: 16px;
+}
+
+.cabecalho__btn:hover {
+  cursor: pointer;
+}
